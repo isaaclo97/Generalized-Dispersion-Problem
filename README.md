@@ -2,7 +2,7 @@
 
 Diversity and dispersion problems deal with selecting a subset of elements from a given set in such a way that their diversity is maximized. This study considers a practical location problem recently proposed in the context of max-min dispersion models. It is called the generalized dispersion problem, and it models realistic applications by introducing capacity and cost constraints. We propose two effective linear formulations for this problem, and develop a hybrid metaheuristic algorithm based on the variable neighborhood search methodology, to solve real instances.  Extensive numerical computational experiments are performed to compare our hybrid metaheuristic with the state-of-art heuristic, and with integer linear programming formulations (ILP).  Results on public benchmark instances show the superiority of our proposal with respect to the previous algorithms. Our extensive experimentation reveals that ILP models are able to optimally solve medium-size instances with the Gurobi optimizer, although metaheuristics outperform ILP both in running time and quality in large-size instances. 
 
-* Paper link: <>
+* Paper link: <https://doi.org/10.1016/j.eswa.2022.116899>
 * Impact Factor: 6.954 
 * Quartil: Q1
 * Journal: Expert Systems with Applications
@@ -41,16 +41,31 @@ Please cite our paper if you use it in your own work:
 
 Bibtext
 ```
+@article{LozanoOsorio2022,
+  doi = {10.1016/j.eswa.2022.116899},
+  url = {https://doi.org/10.1016/j.eswa.2022.116899},
+  year = {2022},
+  month = aug,
+  publisher = {Elsevier {BV}},
+  volume = {200},
+  pages = {116899},
+  author = {Isaac Lozano-Osorio and Anna Mart{\'{\i}}nez-Gavara and Rafael Mart{\'{\i}} and Abraham Duarte},
+  title = {Max{\textendash}min dispersion with capacity and cost for a practical location problem},
+  journal = {Expert Systems with Applications}
+}
 ```
 
 MDPI and ACS Style
 ```
+Lozano-Osorio, I.; Martínez-Gavara, A.; Martí, R.; Duarte, A. Max–Min Dispersion with Capacity and Cost for a Practical Location Problem. Expert Systems with Applications, 2022, 200, 116899. https://doi.org/10.1016/j.eswa.2022.116899.
 ```
 
 AMA Style
 ```
+Lozano-Osorio I, Martínez-Gavara A, Martí R, Duarte A. Max–min dispersion with capacity and cost for a practical location problem. Expert Systems with Applications. 2022;200:116899.
 ```
 
 Chicago/Turabian Style
 ```
+Lozano-Osorio, Isaac, Anna Martínez-Gavara, Rafael Martí, and Abraham Duarte. “Max–Min Dispersion with Capacity and Cost for a Practical Location Problem.” Expert Systems with Applications. Elsevier BV, August 2022. https://doi.org/10.1016/j.eswa.2022.116899.
 ```
