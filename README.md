@@ -1,10 +1,15 @@
+![visitor badge](https://vbr.wocr.tk/badge?page_id=isaaclo97.Generalized-Dispersion-Problem&color=be54c6&style=flat&logo=Github)
+![Manintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![GitHub last commit (master)](https://img.shields.io/github/last-commit/isaaclo97/Generalized-Dispersion-Problem)
+![Starts](https://img.shields.io/github/stars/isaaclo97/Generalized-Dispersion-Problem.svg)
+
 # Max-Min Dispersion with Capacity and Cost for a Practical Location Problem
 
 Diversity and dispersion problems deal with selecting a subset of elements from a given set in such a way that their diversity is maximized. This study considers a practical location problem recently proposed in the context of max-min dispersion models. It is called the generalized dispersion problem, and it models realistic applications by introducing capacity and cost constraints. We propose two effective linear formulations for this problem, and develop a hybrid metaheuristic algorithm based on the variable neighborhood search methodology, to solve real instances.  Extensive numerical computational experiments are performed to compare our hybrid metaheuristic with the state-of-art heuristic, and with integer linear programming formulations (ILP).  Results on public benchmark instances show the superiority of our proposal with respect to the previous algorithms. Our extensive experimentation reveals that ILP models are able to optimally solve medium-size instances with the Gurobi optimizer, although metaheuristics outperform ILP both in running time and quality in large-size instances. 
 
 * Paper link: <https://doi.org/10.1016/j.eswa.2022.116899>
-* Impact Factor: 6.954 
-* Quartil: Q1
+* Impact Factor: 8.500 
+* Quartil: Q1 - 22/145 - Computer Science, Artificial Intelligence | Q1 - 23/275 - Engineering, Electrical & Electronic | 2022  <br>
 * Journal: Expert Systems with Applications
 
 ![USCAP](https://user-images.githubusercontent.com/20272434/158191813-5efc0a4b-2fdf-4109-aacb-ad31a575a7c7.png)
